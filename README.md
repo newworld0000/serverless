@@ -1,9 +1,10 @@
 # serverless
-<u>Exercise 1</u>
+**Exercise 1**
 Here is a tutorial how in AWS Console create simple lambda+dynamodb application:  
 https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api-dynamo-db.html  
 Create the same application but using only serverless  
 *Hint*: Use serverless creator to create sample dynamodb lambda. Then customize it  
+
 
  cmd>serverless  
 
@@ -24,4 +25,5 @@ Creating a new serverless project
   AWS - Python - Flask API with DynamoDB  
   Other  
 
-  <u>Solution in folder ex1</u>
+
+  **Solution in folder ex1**
