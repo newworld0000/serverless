@@ -16,7 +16,7 @@ Creating a new serverless project
   AWS - Node.js - Scheduled Task  
   AWS - Node.js - SQS Worker  
   AWS - Node.js - Express API  
-> AWS - Node.js - Express API with DynamoDB  
+  **AWS - Node.js - Express API with DynamoDB**  
   AWS - Python - Starter  
   AWS - Python - HTTP API  
   AWS - Python - Scheduled Task  
