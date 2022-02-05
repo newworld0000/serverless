@@ -26,4 +26,4 @@ Creating a new serverless project
   Other  
 
 
-  **Solution in folder ex1**
+  **Solution in folder [ex1](ex1)**
