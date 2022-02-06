@@ -35,13 +35,6 @@ Then in serverless create lambda that returns the secret number, 9 in this case
 
 **Solution in folder [ex2](ex2)** 
 
-## Exercise 2  
-In AWS console, in Secrets Manager create new secret (type Other) called "xxx" with key value pair x=9  
-Then in serverless create lambda that returns the secret number, 9 in this case  
-*Hint*: Use "AWS - Node.js - Starter" template in serverless creator  
-
-**Solution in folder [ex2](ex2)** 
-
 ## Exercise 3 (*Advanced*)  
 Using serverless create API to get weather in a city provided as a --stage parameter  
 The response should be like this  
