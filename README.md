@@ -34,3 +34,25 @@ Then in serverless create lambda that returns the secret number, 9 in this case
 *Hint*: Use "AWS - Node.js - Starter" template in serverless creator  
 
 **Solution in folder [ex2](ex2)** 
+
+## Exercise 2  
+In AWS console, in Secrets Manager create new secret (type Other) called "xxx" with key value pair x=9  
+Then in serverless create lambda that returns the secret number, 9 in this case  
+*Hint*: Use "AWS - Node.js - Starter" template in serverless creator  
+
+**Solution in folder [ex2](ex2)** 
+
+## Exercise 3 (*Advanced*)  
+Using serverless create API to get weather in a city provided as a --stage parameter  
+The response should be like this  
+*serverless invoke -f hello --stage Chicago*  
+*{*  
+    *"statusCode": 200,*  
+    *"body": "\"In Chicago the temperature stands at 17.74 F, clear sky above\""*  
+*}*  
+*Hints:*  
+Use api.openweathermap.org, store API Key in Secret Manager  
+Expose API Key and City as environmental variables for lambda  
+Wrap http.get in Promise  
+
+**Solution in folder [ex3](ex3)** 

@@ -1,0 +1,18 @@
+service: ex3
+
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: nodejs14.x
+
+functions:
+  hello:
+    handler: handler.hello
+    environment:
+      weatherkey: ${self:custom.weatherkey.mkey}
+      city: ${sls:stage}
+
+custom:
+  # AWS Secrets manager parameter
+  weatherkey: ${ssm:/aws/reference/secretsmanager/weatherkey}    
