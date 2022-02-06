@@ -1,5 +1,5 @@
 # serverless
-## **Exercise 1**  
+## Exercise 1  
 Here is a tutorial how in AWS Console create simple lambda+dynamodb application:  
 https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api-dynamo-db.html  
 Create the same application but using only serverless  
