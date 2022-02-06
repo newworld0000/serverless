@@ -27,3 +27,10 @@ Creating a new serverless project
 
 
   **Solution in folder [ex1](ex1)**
+
+  **Exercise 2**  
+In AWS console, in Secrets Manager create new secret (type Other) called "xxx" with key value pair x=9  
+Then in serverless create lambda that returns the secret number, 9 in this case  
+*Hint*: Use "AWS - Node.js - Starter" template in serverless creator  
+
+**Solution in folder [ex2](ex2)** 

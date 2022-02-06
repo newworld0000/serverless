@@ -1,0 +1,18 @@
+service: ex2
+
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: nodejs14.x
+
+functions:
+  hello:
+    handler: handler.hello
+    environment:
+      weatherkey: ${self:custom.xxx.x}
+
+
+custom:
+  # AWS Secrets manager parameter
+  xxx: ${ssm:/aws/reference/secretsmanager/xxx}
