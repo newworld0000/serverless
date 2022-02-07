@@ -1,0 +1,19 @@
+service: ex4
+
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: nodejs14.x
+  iam:
+    role:
+      statements:
+        - Effect: Allow
+          Action:
+            - secretsmanager:GetSecretValue
+          Resource:
+            - "arn:aws:secretsmanager:us-east-1:526980514586:secret:xxx-h3WG7l"
+
+functions:
+  hello:
+    handler: handler.hello
