@@ -54,6 +54,6 @@ Wrap http.get in Promise
 In AWS lambda get secret from secret manager using aws-sdk.  
 *Hints*:  
 How to get secret: https://docs.aws.amazon.com/code-samples/latest/catalog/javascript-secrets-secrets_getsecretvalue.js.html  
-In serverless template "AWS - Node.js - Express API with DynamoDB" examine in serverless.yml how permissions to dynamodb is added  
+In serverless template "AWS - Node.js - Express API with DynamoDB" examine in serverless.yml how permissions to dynamodb are added  
 
 **Solution in folder [ex4](ex4)**  
