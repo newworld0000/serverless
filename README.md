@@ -60,7 +60,7 @@ In serverless template "AWS - Node.js - Express API with DynamoDB" examine in se
 
 ## Exercise 5    
 In AWS lambda get secret "xxx" from secret manager.  
-Make sure it is not plain-text stored in compiled-cloudformation-template.json file in S3 bucket
+Make sure it is not plain-text stored in compiled-cloudformation-template.json file in S3 bucket  
 *Hints*:  
 Use dynamic reference:  
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/dynamic-references.html#dynamic-references-secretsmanager  
