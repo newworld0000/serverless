@@ -1,0 +1,14 @@
+service: ex5
+
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: nodejs14.x
+
+functions:
+  hello:
+    handler: handler.hello
+    environment:
+      # xxx: ${ssm:/aws/reference/secretsmanager/xxx}
+      xxx: "{{resolve:secretsmanager:xxx:SecretString:x}}"

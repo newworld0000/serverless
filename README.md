@@ -57,3 +57,12 @@ How to get secret: https://docs.aws.amazon.com/code-samples/latest/catalog/javas
 In serverless template "AWS - Node.js - Express API with DynamoDB" examine in serverless.yml how permissions to dynamodb are added  
 
 **Solution in folder [ex4](ex4)**  
+
+## Exercise 5    
+In AWS lambda get secret "xxx" from secret manager.  
+Make sure it is not plain-text stored in compiled-cloudformation-template.json file in S3 bucket
+*Hints*:  
+Use dynamic reference:  
+https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/dynamic-references.html#dynamic-references-secretsmanager  
+
+**Solution in folder [ex5](ex5)**  
