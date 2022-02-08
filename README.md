@@ -66,3 +66,12 @@ Use dynamic reference:
 https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/dynamic-references.html#dynamic-references-secretsmanager  
 
 **Solution in folder [ex5](ex5)**  
+
+## Exercise 6    
+Create 2 functions **producer** and **consumer** in one serverless.yml file  
+Call consumer from producer  
+*Hint*:  
+Use Lambda API:  
+https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/Lambda.html  
+
+**Solution in folder [ex6](ex6)**  
